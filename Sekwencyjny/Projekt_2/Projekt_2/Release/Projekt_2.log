@@ -1,0 +1,6 @@
+﻿  main.cpp
+main.cpp(54): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+main.cpp(62): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Generating code
+  Finished generating code
+  Projekt_2.vcxproj -> C:\Users\Kamil W\Desktop\Studia\Semestr V\Przetwarzanie równoległe\Laboratoria\Projekt 2\Kod\Projekt_2\Release\Projekt_2.exe
