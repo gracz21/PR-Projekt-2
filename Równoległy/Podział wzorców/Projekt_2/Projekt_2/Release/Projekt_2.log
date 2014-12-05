@@ -1,0 +1,7 @@
+﻿  rown_wzorce.cpp
+rown_wzorce.cpp(60): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+rown_wzorce.cpp(66): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+rown_wzorce.cpp(78): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Generating code
+  Finished generating code
+  Projekt_2.vcxproj -> C:\Users\Kamil W\Desktop\Studia\Semestr V\Przetwarzanie równoległe\Laboratoria\Projekt 2\Kod\Równoległy\Podział wzorców\Projekt_2\Release\Projekt_2.exe

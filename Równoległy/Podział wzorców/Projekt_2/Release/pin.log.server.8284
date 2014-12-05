@@ -1,0 +1,5 @@
+Pin 2.12 kit 61147
+E:  SYSCALL_INSPECTOR: The NTDLL!NtSetContextThread function jumps out of NTDLL, at 0x077890400. It may be hooked by a PIN-incompatible software installed on the system
+E:  Incompatible operating system or incompatible software installed on the system
+A: Source\pin\winloader\injection_server_winloader.cpp:LEVEL_BASE::PIN_INJECTION_SERVER::Init:LEVEL_BASE::PIN_INJECTION_SERVER::Init:177: assertion failed: res == TRUE
+
