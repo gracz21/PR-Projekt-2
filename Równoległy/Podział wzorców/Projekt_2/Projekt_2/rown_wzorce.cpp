@@ -15,8 +15,8 @@ void genPattern(int len, int k, string fName) {
 	int i, j;
 	for(j = 0; j < k; j++) {
 		s = "";
-		int tmp = (rand() % len) + 1;
-		for(i = 0; i < tmp; i++) 
+		//int tmp = (rand() % len) + 1;
+		for(i = 0; i < len; i++) 
 			s += char(65 + (rand() % 26));
 		myfile << s << endl;
 	}
