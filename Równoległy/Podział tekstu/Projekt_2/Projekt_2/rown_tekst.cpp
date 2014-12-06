@@ -57,13 +57,15 @@ void test(string pName, string tName, int k) {
 
 	for(l = 0; l < k; l++) {
 		start = clock();
+		for(i = 0; i < patt.size(); i++)
+			result.at(i) = 0;
 		for(i = 0; i < patt.size(); i++) {
 			p = patt.at(i);
 			int range = text.length() - (p.length() - 1);
 
 			int sum = 0;
 			omp_set_num_threads(4);
-			#pragma omp parallel for reduction(+: sum)
+#pragma omp parallel for reduction(+: sum)
 			for(j = 0; j < range; j++)
 				if (p == text.substr(j, p.length()))
 					sum++;

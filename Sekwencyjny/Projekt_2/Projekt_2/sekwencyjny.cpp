@@ -55,6 +55,8 @@ void test(string pName, string tName, int k) {
 	tFile.close();
 
 	for(l = 0; l < k; l++) {
+		for(i = 0; i < patt.size(); i++)
+			result.at(i) = 0;
 		start = clock();
 		for(i = 0; i < patt.size(); i++) {
 			p = patt.at(i);
