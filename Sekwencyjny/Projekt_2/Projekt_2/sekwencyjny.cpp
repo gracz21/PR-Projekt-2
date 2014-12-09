@@ -12,6 +12,7 @@ void genPattern(int len, int k, string fName) {
 	myfile.open("patterns//" + fName + ".txt");
 	string s;
 	int i, j;
+	srand(time(NULL));
 	for(j = 0; j < k; j++) {
 		s = "";
 		//int tmp = (rand() % len) + 1;
@@ -25,6 +26,7 @@ void genPattern(int len, int k, string fName) {
 void genText(int len, string fName) {
 	ofstream myfile;
 	myfile.open("texts//" + fName + ".txt");
+	srand(time(NULL));
 	for(int i = 0; i < len; i++)
 		myfile << char(65 + (rand() % 26));
 	myfile.close();
